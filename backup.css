@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://top10tayninh.com/wp-content/uploads/2022/10/b3357bf671a30deb3c69269e3ce2e252.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    width: 600px;
+    height: 556px;
+    margin: 65px auto;
+    background:rgba(86, 40, 92, 0.577); /* Chỉnh background thành trong suốt */
+    border-radius: 15px;
+    padding: 20px;
+    padding-top:39px  ;
+    box-shadow: 0 50px 200px rgba(0, 0, 0, 0.2.5);
+    position: relative; /* Thêm vào đây */
+    
+}
+.card-text{
+    padding: -100px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #d552e1a3; /* Màu nền với độ mờ */
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    
+}
+h1 {
+    font-size:38px;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+      
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.card-img{
+    flex: auto;
+    text-align: center;
+    margin: 30px 0px ;
+    gap: 40px;
+}
+.question-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-ans{
+    text-align: center;
+}
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1.65px solid #090909;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background:none;
+   
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0e26ae;
+}
+
+#result {
+    text-align: center;
+    font-size: 22px;
+    font-weight:900;
+    color: #10b80d;
+    margin-top: 20px;
+}
+#score{
+    color:#090909;
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight:600;
+}
+#answerInput{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center; 
+}
+.hint{
+    color:#d4def8df;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 5px 0px;
+    text-align: center;
+    height: 55px;    
+}
+.card-box{
+    text-align: center;
+    margin-top: 10px ;
+}
+.card-sapxep {
+    position: absolute;
+    bottom: 10px; /* Điều chỉnh giá trị này để kiểm soát khoảng cách từ phía dưới */
+    width: 93%; /* Làm cho phần tử .card-sapxep chiếm toàn bộ chiều rộng */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Thêm khoảng cách giữa nội dung thẻ và card-sapxep */
+}

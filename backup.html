@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="backup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-text">
+            <h1>CATCH THE WORD</h1>
+        </div>
+        <div class="image-container">
+            <img class="question-image" src="" alt="Câu đố 1">
+            <img class="question-image" src="" alt="Câu đố 2">
+        </div>
+        <div class="hint" id="hint"></div>
+        <div class="card-box">
+            <input type="text" id="answerInput" placeholder="Write the answer...">
+            <button onclick="checkAnswer()">Check</button>
+        </div>
+        <p id="result"></p>
+        <p id="answer" style="display: none;"></p> <!-- Phần tử để hiển thị đáp án -->
+        <div class="card-sapxep">
+            <div id="score">Score: 0</div> 
+            <div class="card-next">
+                <button id="nextButton" style="display: none;" onclick="nextQuestion()">Next</button>
+                <button id="continueButton" style="display: none;" onclick="continueToNextQuestion()">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="backup.js"></script>
+</body>
+</html>
+
+
